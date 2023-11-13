@@ -1,0 +1,54 @@
+.login-page {
+    max-width: 300px;
+    margin: 100px auto;
+    font-family: sans-serif;
+
+    > * {
+        border: 1px solid $clr2;
+    }
+
+    form {
+        display: grid;
+        gap: 0.5em;
+        padding: 1em;
+
+        .logo {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        div {
+            display: grid;
+            grid-auto-flow: column;
+            place-items: center;
+
+            >* {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        input {
+            padding: 0.5em;
+        }
+
+        button {
+            background-color: $clr1;
+            color: white;
+            border: none;
+            padding: 0.4em;
+            border-radius: 5px;
+        }
+
+        span {
+            justify-self: center;
+        }
+
+    }
+
+    p {
+        text-align: center;
+        padding: 1em;
+        margin-top: 0.5em;
+    }
+}
