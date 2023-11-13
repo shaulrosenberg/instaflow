@@ -1,7 +1,7 @@
-import { Route, HashRouter as Router, Routes } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 
+import PstIndex  from "./views/pst-index"
 import LoginPage from './views/login-page'
-import PstIndex from './views/pst-index'
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
 		<>
 			<Router>
 				<Routes>
-					<Route path='/' element={<PstIndex />} />
+					<Route path='/pst' element={<PstIndex />} />
 					<Route path='/login' element={<LoginPage />} />
 				</Routes>
 			</Router>
