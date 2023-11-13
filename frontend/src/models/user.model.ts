@@ -1,9 +1,10 @@
 
 
 
-type User = {
+export type User = {
     _id: string,
     fullname: string,
     username: string,
-    password: string
+    password: string,
+    imgUrl: string
 }
